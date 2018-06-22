@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "target": "es5",
+    "moduleResolution": "classic",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    // "outFile": "js/app.js",
+    "outDir": "scripts/",
+    "sourceMap": false,
+    "alwaysStrict": true,
+    "lib": ["dom", "es5", "scripthost"]
+  },
+  "include": [
+    "ts/**/*",
+  ],
+  "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+  ]
+}
